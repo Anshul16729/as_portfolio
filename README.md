@@ -1,5 +1,5 @@
 <h1 align="center">Hi <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px"> I'm Anshul Shrivastava</h1>
-<h3 align="center">"Hello, I'm a Software Developer at Etelligens Technologies"</h3>
+<h3 align="center">"I'm a Software Developer at Etelligens Technologies"</h3>
 
 - 👨‍💻 All about me is at [My Website](https://github.com/Anshul16729/portfolio_anshul)
 
