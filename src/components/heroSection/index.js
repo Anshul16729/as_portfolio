@@ -1,6 +1,6 @@
 import React from 'react'
 import { words } from '../../utils/Constants'
-import Typewriter from '../../TypeWriter'
+import Typewriter from '../../reusable-components/typeWriter'
 
 const HeroSection = () => {
   return (

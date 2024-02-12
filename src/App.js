@@ -1,10 +1,12 @@
-import React from "react";
+import React, { Suspense, lazy } from 'react';
 import "./style.css";
 // import './App.css';
-import MobileNavToggleButton from "./components/mobileNavToggleButton";
-import Header from "./components/header";
-import Home from "./pages/home";
-import About from "./pages/about";
+
+import MobileNavToggleButton from "./components/MobileNavToggleButton";
+import {Home,About} from "./routes";
+// import About from "./pages/about";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import SideBar from './components/SideBar'
 
 function App() {
   return (
@@ -13,7 +15,16 @@ function App() {
       <MobileNavToggleButton />
 
       {/* <!-- ======= Header ======= --> */}
-      <Header />
+      <Router>
+      <SideBar />
+      <Suspense fallback={<div>Loading...</div>}> 
+      <Routes>
+      <Route path="/" exact component={Home} />
+      <Route path="/about"  component={About} />
+      </Routes></Suspense>
+     
+      {/* Add routes for other sections */}
+    </Router>
       {/* <!-- End Header --> */}
 
       {/* <!-- ======= Hero Section ======= --> */}

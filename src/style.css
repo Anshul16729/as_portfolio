@@ -172,6 +172,10 @@ h6 {
   white-space: nowrap;
 }
 
+.pointer{
+  cursor: pointer;
+}
+
 .nav-menu a,
 .nav-menu a:focus {
   display: flex;
