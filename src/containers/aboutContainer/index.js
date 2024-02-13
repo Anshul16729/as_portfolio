@@ -27,8 +27,7 @@ const AboutContainer = () => {
               <ul>
                 <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>{basicContactDetails.birthday}</span></li>
                 <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
-                <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span><a href='tel:827-946-0724'>{basicContactDetails.phone}</a></span></li>
-                <li><i className="bi bi-chevron-right"></i> <strong>WhatsApp:</strong> <span><a href='tel:725-282-7815'>{basicContactDetails.whatsapp}</a></span></li>
+                <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span><a href='tel:+918279460724'>{basicContactDetails.phone}</a></span></li>
                 <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>{basicContactDetails.address}</span></li>
               </ul>
             </div>

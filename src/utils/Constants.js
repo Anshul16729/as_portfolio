@@ -15,11 +15,14 @@ export const basicConstants={loading:"Loading..."}
 
 export const basicContactDetails={
    address:"Noida UP, India",
+   completeAddress:"Noida UP 201301, India",
    birthday:"16 May 1997",
    phone:"+91 827 946 0724",
    whatsapp:"+91 725-282-7815",
    age:27,
    degree:"MCA",
    mail:"anshul.progorammingjobs@gmail.com",
+   linkedin:"LinkedIn",
+   linkedinUrl:'https://www.linkedin.com/in/%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB-anshul-shrivastava-6b1483152/',
    isFreelance:"Available",
 }

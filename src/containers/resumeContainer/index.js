@@ -3,13 +3,42 @@ import { resumeDetails } from './constants'
 import { basicContactDetails, profileName } from '../../utils/constants'
 
 const ResumeContainer = () => {
+  const handleDownload = () => {
+    // Here you can define the content of the file you want to download
+    const content = 'This is the content of the file you want to download.';
+    
+    // Create a Blob object representing the data to be downloaded
+    const blob = new Blob([content], { type: 'text/plain' });
+    
+    // Create a URL representing the Blob object
+    const url = URL.createObjectURL(blob);
+    
+    // Create a link element
+    const link = document.createElement('a');
+    
+    // Set the href attribute of the link to the URL representing the Blob object
+    link.href = url;
+    
+    // Set the download attribute of the link to specify the filename
+    link.download = 'download.txt';
+    
+    // Append the link to the document body
+    document.body.appendChild(link);
+    
+    // Programmatically click the link to trigger the download
+    link.click();
+    
+    // Clean up by removing the link and revoking the URL
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+  };
   return (
     <section id="resume" className="resume">
     <div className="container">
       <div className="section-title">
         <h2>{resumeDetails.resumeTitle}</h2>
         <p>
-          {resumeDetails.resumeIntro}
+          {resumeDetails.resumeIntro} <a onClick={handleDownload} style={{cursor:"pointer",color:"skyblue"}}>Download Resume</a> to get my updated resume.
         </p>
       </div>
 
@@ -26,8 +55,8 @@ const ResumeContainer = () => {
             <ul>
               <li>{basicContactDetails.address}</li>
               <li>{basicContactDetails.phone}</li>
-              <li>{basicContactDetails.whatsapp}</li>
               <li>{basicContactDetails.mail}</li>
+              <li><a href={basicContactDetails.linkedinUrl} target='_blank'>{basicContactDetails.linkedin}</a></li>
             </ul>
           </div>
 
@@ -74,32 +103,7 @@ const ResumeContainer = () => {
             </div>)
             })}
           
-          {/* <div className="resume-item">
-            <h4>"nkjlk"</h4>
-            <h5>2017 - 2018</h5>
-            <p>
-              <em>Stepping Stone Advertising, New York, NY</em>
-            </p>
-            <ul>
-              <li>
-                Developed numerous marketing programs (logos,
-                brochures,infographics, presentations, and
-                advertisements).
-              </li>
-              <li>
-                Managed up to 5 projects or tasks at a given time while
-                under pressure
-              </li>
-              <li>
-                Recommended and consulted with clients on the most
-                appropriate graphic design
-              </li>
-              <li>
-                Created 4+ design presentations and proposals a month for
-                clients and account managers
-              </li>
-            </ul>
-          </div> */}
+         
         </div>
       </div>
     </div>

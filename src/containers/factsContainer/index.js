@@ -24,7 +24,7 @@ const Facts = () => {
               data-purecounter-end="3"
               data-purecounter-duration="1"
               className="purecounter"
-            ></span>
+            >3</span>
             <p>
               <strong>Happy Clients</strong> Deal
             </p>
@@ -43,7 +43,7 @@ const Facts = () => {
               data-purecounter-end="6"
               data-purecounter-duration="1"
               className="purecounter"
-            ></span>
+            >6</span>
             <p>
               <strong>Projects</strong> Worked
             </p>
@@ -62,7 +62,7 @@ const Facts = () => {
               data-purecounter-end="24/7"
               data-purecounter-duration="1"
               className="purecounter"
-            ></span>
+            >24/7</span>
             <p>
               <strong>Hours Of Support</strong> I have dedicated
             </p>
@@ -81,9 +81,9 @@ const Facts = () => {
               data-purecounter-end="10"
               data-purecounter-duration="1"
               className="purecounter"
-            ></span>
+            >10</span>
             <p>
-              <strong>Hard Worked Projects</strong>during my career start
+              <strong>Hard Worked Projects </strong> during my career start
             </p>
           </div>
         </div>

@@ -6,12 +6,13 @@ const TestimonialsSection = () => {
     <div className="container">
       <div className="section-title">
         <h2>Testimonials</h2>
-        <p>
+        <p>Coming Soon...</p>
+        {/* <p>
           Magnam dolores commodi suscipit. Necessitatibus eius consequatur
           ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
           quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
           Quia fugiat sit in iste officiis commodi quidem hic quas.
-        </p>
+        </p> */}
       </div>
 
       <div
@@ -20,7 +21,7 @@ const TestimonialsSection = () => {
         data-aos-delay="100"
       >
         <div className="swiper-wrapper">
-          <div className="swiper-slide">
+          {/* <div className="swiper-slide">
             <div className="testimonial-item" data-aos="fade-up">
               <p>
                 <i className="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -38,10 +39,10 @@ const TestimonialsSection = () => {
               <h3>Saul Goodman</h3>
               <h4>Ceo &amp; Founder</h4>
             </div>
-          </div>
+          </div> */}
           {/* <!-- End testimonial item --> */}
 
-          <div className="swiper-slide">
+          {/* <div className="swiper-slide">
             <div
               className="testimonial-item"
               data-aos="fade-up"
@@ -63,10 +64,10 @@ const TestimonialsSection = () => {
               <h3>Sara Wilsson</h3>
               <h4>Designer</h4>
             </div>
-          </div>
+          </div> */}
           {/* <!-- End testimonial item --> */}
 
-          <div className="swiper-slide">
+          {/* <div className="swiper-slide">
             <div
               className="testimonial-item"
               data-aos="fade-up"
@@ -87,10 +88,10 @@ const TestimonialsSection = () => {
               <h3>Jena Karlis</h3>
               <h4>Store Owner</h4>
             </div>
-          </div>
+          </div> */}
           {/* <!-- End testimonial item --> */}
 
-          <div className="swiper-slide">
+          {/* <div className="swiper-slide">
             <div
               className="testimonial-item"
               data-aos="fade-up"
@@ -112,10 +113,10 @@ const TestimonialsSection = () => {
               <h3>Matt Brandon</h3>
               <h4>Freelancer</h4>
             </div>
-          </div>
+          </div> */}
           {/* <!-- End testimonial item --> */}
 
-          <div className="swiper-slide">
+          {/* <div className="swiper-slide">
             <div
               className="testimonial-item"
               data-aos="fade-up"
@@ -137,7 +138,7 @@ const TestimonialsSection = () => {
               <h3>John Larson</h3>
               <h4>Entrepreneur</h4>
             </div>
-          </div>
+          </div> */}
           {/* <!-- End testimonial item --> */}
         </div>
         <div className="swiper-pagination"></div>

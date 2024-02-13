@@ -1,7 +1,7 @@
 export const resumeDetails = {
   resumeTitle: "Resume",
   resumeIntro:
-    "Good knowledge of MVC Architecture and object-oriented programming as well as excellent communication skills with good team coordination skills to attain project deadlines.",
+    "This is just a basic overview of my resume. Please click on ",
   resumeSummary:
     "I have Overall, 3 years of experience in development Web & Enterprise applications using ReactJS, React Native and NodeJS.",
   education: "Education",
