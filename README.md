@@ -1,6 +1,6 @@
 ![Application screenshot](./public/ss.png)
 
-- 👨‍💻 All about me is at [My Website](https://github.com/Anshul16729/portfolio_anshul)
+- 👨‍💻 All about me is at [My Website](https://anshulshri.netlify.app/)
 
 - 📫 How to reach me **anshul.programmingjobs@gmail.com**
 

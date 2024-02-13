@@ -26,7 +26,7 @@ const AboutContainer = () => {
             <div className="col-lg-6">
               <ul>
                 <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>{basicContactDetails.birthday}</span></li>
-                <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
+                <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span>{basicContactDetails.website}</span></li>
                 <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span><a href='tel:+918279460724'>{basicContactDetails.phone}</a></span></li>
                 <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>{basicContactDetails.address}</span></li>
               </ul>
