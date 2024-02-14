@@ -1,6 +1,7 @@
 import React from "react";
 import { resumeDetails } from "./constants";
 import { basicContactDetails, profileName } from "../../utils/constants";
+import { color } from "../../themes/color";
 
 const ResumeContainer = () => {
   // const handleDownload = () => {
@@ -40,14 +41,14 @@ const ResumeContainer = () => {
             {resumeDetails.resumeIntro}
             <a
               // onClick={handleDownload}
-              style={{ cursor: "pointer", color: "skyblue" }}
+              style={{ cursor: "pointer", color: color._149ddd}}
               href="https://docs.google.com/document/d/1uyYjcQ2HBl-jDpghMEpOGhUc6pt-QGAt/edit?usp=drive_link&ouid=115110223783799042683&rtpof=true&sd=true"
               target="_blank"
               rel="noopener noreferrer"
             >
               View Resume&nbsp;
             </a>
-            to check my updated resume.
+            to check my detailed work experience.
           </p>
         </div>
 
