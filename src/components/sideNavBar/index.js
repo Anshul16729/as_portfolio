@@ -1,5 +1,5 @@
 import React from "react";
-import profileImg from "../../assets/img/my-profile.jpg";
+import profileImg from "../../assets/img/side-nav-img.jpg";
 import { SocialMediaUrl, profileName, socialMediaUrl } from "../../utils/constants";
 import SideNavLinks from "../../reusable-components/sideNavLinks";
 import SocialMediaLinks from "../../reusable-components/socialMediaLinks";

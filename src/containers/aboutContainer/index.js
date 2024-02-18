@@ -1,5 +1,6 @@
 import React from 'react'
-import profileImg from '../../assets/img/my-profile.jpg'
+import profileImg from '../../assets/img/profile-img.jpg'
+// import profileImg from '../../assets/img/profile-img.jpg'
 import { basicContactDetails, designation, profileName } from '../../utils/constants'
 import { aboutDetails } from './constants'
 
@@ -43,6 +44,7 @@ const AboutContainer = () => {
           <p>
            {aboutDetails.anotherAboutIntro}
           </p>
+          <p>{aboutDetails.thirdAboutIntro}</p>
         </div>
       </div>
 
